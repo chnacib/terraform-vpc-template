@@ -1,0 +1,45 @@
+variable "region" {
+  type        = string
+  default     = "us-east-1"
+  description = "AWS Region"
+}
+
+variable "vpc_cidr" {
+  type = string
+}
+
+variable "public_subnet_1_cidr" {
+  type = string
+}
+
+variable "public_subnet_2_cidr" {
+  type = string
+}
+
+variable "public_subnet_3_cidr" {
+  type = string
+}
+
+
+variable "private_subnet_1_cidr" {
+  type = string
+}
+
+variable "private_subnet_2_cidr" {
+  type = string
+}
+
+variable "private_subnet_3_cidr" {
+  type = string
+}
+
+variable "proj_name" {
+  type = string
+
+}
+
+variable "repository_name" {
+  type = string
+  
+}
+
