@@ -38,8 +38,3 @@ variable "proj_name" {
 
 }
 
-variable "repository_name" {
-  type = string
-  
-}
-
